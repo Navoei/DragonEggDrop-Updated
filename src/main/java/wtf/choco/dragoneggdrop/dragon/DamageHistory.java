@@ -306,7 +306,7 @@ public final class DamageHistory {
      * @return the damage history instance
      */
     @NotNull
-    public static DamageHistory fromJson(JsonObject object) {
+    public static DamageHistory fromJson(@NotNull JsonObject object) {
         UUID entityUUID = JsonUtils.getRequiredField(object, "entityUUID", element -> UUID.fromString(element.getAsString()));
         JsonArray damageEntriesArray = JsonUtils.getOptionalField(object, "damageEntries", JsonElement::getAsJsonArray, new JsonArray());
 
