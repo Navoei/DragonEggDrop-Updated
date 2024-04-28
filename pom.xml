@@ -11,8 +11,8 @@
 
   <repositories>
     <repository>
-      <id>spigot-repo</id>
-      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+      <id>papermc</id>
+      <url>https://repo.papermc.io/repository/maven-public/</url>
     </repository>
     <repository>
       <id>placeholderapi-repo</id>
@@ -63,7 +63,7 @@
 
           <links>
             <link>https://docs.oracle.com/en/java/javase/11/docs/api</link>
-            <link>https://hub.spigotmc.org/javadocs/spigot</link>
+            <link>https://jd.papermc.io/paper/1.20/t</link>
             <link>https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs</link>
           </links>
         </configuration>
@@ -125,9 +125,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.spigotmc</groupId>
-      <artifactId>spigot-api</artifactId>
-      <version>1.16.1-R0.1-SNAPSHOT</version>
+      <groupId>io.papermc.paper</groupId>
+      <artifactId>paper-api</artifactId>
+      <version>1.20.4-R0.1-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
 
