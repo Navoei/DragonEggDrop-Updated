@@ -5,7 +5,7 @@ description: ${project.description}
 softdepend: [PlaceholderAPI, Multiverse-Core]
 author: Choco
 contributors: [NinjaStix, Photon]
-api-version: 1.16
+api-version: 1.20
 
 commands:
   dragoneggdrop:
